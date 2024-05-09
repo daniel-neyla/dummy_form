@@ -11,10 +11,15 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   height: 100vh;
   /* background-color: red; */
+  font-family: sans-serif;
 }
 
 #logo-section {
@@ -23,6 +28,39 @@ body {
   background-image: url("./assets/annie-spratt-_dAnK9GJvdY-unsplash.jpg");
   background-size: cover;
   float: left;
+  position: relative;
+}
+
+.heading {
+  background-color: rgba(0, 0, 0, 0.293);
+  text-align: center;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.heading h2 {
+  color: #fff;
+  font-size: 4.2rem;
+  font-family: Sedan, Sigmar, sans-serif;
+}
+
+.credit {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.credit p {
+  color: white;
+}
+
+.credit a {
+  text-decoration: underline;
+  color: white;
 }
 
 #form-section {
