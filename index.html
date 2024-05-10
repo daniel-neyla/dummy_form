@@ -61,11 +61,22 @@
             </div>
             <div class="input-field">
               <label for="password">Password</label>
-              <input type="password" name="password" id="password" />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                minlength="8"
+                required
+              />
             </div>
             <div class="input-field">
               <label for="repeat-password">Confirm Password</label>
-              <input type="password" id="repeat-password" />
+              <input
+                type="password"
+                id="repeat-password"
+                minlength="8"
+                required
+              />
             </div>
           </fieldset>
         </div>
@@ -74,4 +85,5 @@
       <p id="log-in">Already have an account? <a href="#">Log in</a></p>
     </section>
   </body>
+  <script src="./script.js"></script>
 </html>
